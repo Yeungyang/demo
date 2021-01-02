@@ -1,0 +1,93 @@
+*{
+	font-family:'微软雅黑';
+}
+.container {
+	height: 95px;
+}
+
+.content {
+	background-color: white;
+}
+
+.content .left {
+	background: #f0f0f0;
+	float: left;
+	width: 180px;
+}
+
+.content .left .title {
+	background-color: #0000FF;
+}
+
+.content .left table tr td {
+	text-align: center;
+}
+
+.content .left span {
+	font-size: 19px;
+	vertical-align: top;
+	text-align: center;
+	display: block;
+	line-height: 70px;
+}
+
+.content .left tbody:first-of-type>:hover a {
+	color: #CC0000;
+}
+
+.content .left .title span {
+	font-size: 34px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 100px;
+}
+
+.content .right .title {
+	height: 40px;
+	border-bottom-style: none;
+	border-bottom-color: #CCCCCC;
+}
+
+.content .right input{
+	font-size: 15px;
+	outline: none;
+}
+.content .right select{
+	font-size: 15px;
+	outline: none;
+}
+.content .right table{
+	border: 1px solid #000000;
+}
+.content .right table tr {
+	color: black;
+	font-size: 15px;
+	line-height: 40px;
+}
+.content .right table tr td{
+	vertical-align: middle;
+	text-align: center;
+	width: 260px;
+	border: 1px solid #000000;
+}
+.content .right table tr th{
+	vertical-align: middle;
+	text-align: center;
+	width: 120px;
+	border: 1px solid #000000;
+}
+.content .right .td-img {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.content .right .td-content {
+	vertical-align: middle;
+	text-align: left;
+}
+
+.content .right .td-date {
+	width: 15%;
+	vertical-align: middle;
+	text-align: center;
+}
